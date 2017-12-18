@@ -1,0 +1,117 @@
+
+/*---------------------
+------ すむーすMenu -------
+-----------------------*/
+
+/*----------------------
+------ accordion -------
+----------------------*/
+
+.accodion h1 {
+	border-bottom: 3px solid #dcaeff;
+}
+
+.accodion input {
+	display: none;
+}
+.accodion label{
+	background-color: #dcaeff;
+	height: 15px;
+	padding: 5px 20px;
+	display: block;
+	border-top: 1px solid #ccc;
+}
+
+.accodion article{
+	display: none;
+	border: 1px solid #ccc;
+}
+
+.accodion article{
+	display: none;
+	border: 1px solid #ccc;
+}
+
+.accodion ul{
+	padding-left: 0px;
+}
+
+.accodion ul li {
+	display: block;
+	background-color: #eee;
+}
+
+/*------------------------
+------ modalWindow -------
+------------------------*/
+
+.modal{
+	z-index: 0;
+}
+
+.modal h1 {
+	border-bottom: 3px solid #dcaeff;
+}
+
+.modal img{
+	width: 250px;
+}
+
+
+.modal_bg{
+	display: none;
+	position: absolute;
+	background-color: #4340408f;
+	width: 100vw;
+	height: 100vh;
+	bottom: 0px;
+	z-index: 1;
+}
+
+.modal_pop{
+	display: none;
+	position: fixed;
+ 	top: 20%;
+ 	left: 40%;
+	z-index: 2;
+}
+
+.modal_pop #ani1,.modal_pop #ani2,.modal_pop #ani3{
+	display: none;
+}
+
+
+/*---------------------
+------ はんばーがーMenu -------
+-----------------------*/
+
+
+/*---------------------
+------ megaMenu -------
+-----------------------*/
+
+.mega h1 {
+	border-bottom: 3px solid #dcaeff;
+}
+
+.mega ul li {
+	display: table-cell;
+	width: 20%;
+}
+
+.mega .list1{
+	width: 600px;
+	height: 250px;
+	background-color: #eee;
+	display: none;
+	padding-top: 10px;
+}
+
+ .list2, .list3{
+	width: 600px;
+	height: 250px;
+	background-color: #eee;
+	display: none;
+	padding-top: 10px;
+}
+
